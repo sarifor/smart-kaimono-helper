@@ -1,0 +1,8 @@
+.env
+carts/
+__pycache__/
+.pytest_cache/
+*.pyc
+.coverage
+.claude/
+temp/

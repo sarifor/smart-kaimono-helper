@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+markers = [
+    "smoke: real API calls (costs money)",
+]
+addopts = "-m 'not smoke'"
