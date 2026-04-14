@@ -43,7 +43,10 @@
 
 ### 개발 환경
 - Windows 11 Pro / Python 3.12.6
-- Mac/Linux는 미검증입니다.
+- Mac/Linux는 미검증
+- Claude Code
+  - 코딩: Claude Opus 4.6 (thinking: high)
+  - 문서 작성: Claude Sonnet 4.6 (thinking: auto)
 
 ### 라이브러리
 - anthropic 0.76.0
