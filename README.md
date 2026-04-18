@@ -7,6 +7,7 @@
 ## 목차 <!-- omit in toc -->
 
 - [소개](#소개)
+- [이야기로 보는 동작 흐름](#이야기로-보는-동작-흐름)
 - [주요 기능](#주요-기능)
 - [기술 스택](#기술-스택)
   - [개발 환경](#개발-환경)
@@ -16,7 +17,7 @@
   - [전제 조건](#전제-조건)
   - [설치](#설치)
   - [사용 방법](#사용-방법)
-- [동작 화면](#동작-화면)
+- [사용 영상](#사용-영상)
 - [참고사항](#참고사항)
 - [License](#license)
 
@@ -27,6 +28,13 @@
 일본 넷슈퍼 장바구니 목록을 AI가 대신 짜주는 CLI 도구입니다.<br/>
 예산을 입력하면 트렌드·취향을 반영한 장바구니를 만들고, 건강 균형까지 검토해줍니다.<br/>
 타깃 유저는 일본 거주 한국인, 일본인, 기타 일본어 사용자입니다. 따라서 한국어·일본어를 모두 지원합니다.
+
+## 이야기로 보는 동작 흐름
+
+월요일 밤, 냉장고를 열었더니 달걀만 덩그러니. 뭘 사야 할지 생각하는 것 자체가 귀찮다.<br/>
+`python shop.py`를 실행하고, 예산과 키워드만 입력하면 끝.<br/>
+AI가 트렌드·취향·영양 균형을 따져 장바구니 목록을 만들어준다.<br/>
+그 목록을 들고 넷슈퍼에 접속해 장바구니에 따라 담기만 하면 된다.
 
 ## 주요 기능
 
@@ -44,7 +52,7 @@
 ### 개발 환경
 - Windows 11 Pro / Python 3.12.6
 - Mac/Linux는 미검증
-- Claude Code
+- [Claude Code](https://code.claude.com/docs/en/overview)
   - 코딩: Claude Opus 4.6 (thinking: high)
   - 문서 작성: Claude Sonnet 4.6 (thinking: auto)
 
@@ -72,7 +80,7 @@
    ```
 2. 이 저장소를 클론합니다.
    ```
-   git clone https://github.com/Sarifor/smart-kaimono-helper.git
+   git clone https://github.com/sarifor/smart-kaimono-helper.git
    ```
 3. 의존성을 설치합니다.
    ```
@@ -98,9 +106,9 @@
 5. 추천 키워드 중 하나를 고르거나 직접 입력합니다
 6. 장바구니 목록이 생성되고 `carts/` 폴더에 저장됩니다 (앱 자동 종료)
 
-## 동작 화면
+## 사용 영상
 
-(추가 예정)
+[![thumbnail](./thumbnail.jpg)](https://www.youtube.com/watch?v=nSv5lKohkog)
 
 ## 참고사항
 
