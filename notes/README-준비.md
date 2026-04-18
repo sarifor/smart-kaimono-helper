@@ -9,6 +9,7 @@
   - [역할](#역할)
   - [만드는 법](#만드는-법)
   - [Windows PowerShell 주의사항](#windows-powershell-주의사항)
+- [사용 영상](#사용-영상)
 - [LICENSE](#license)
   - [MIT 라이선스를 선택한 이유](#mit-라이선스를-선택한-이유)
   - [적용 방법](#적용-방법)
@@ -49,6 +50,9 @@ pip freeze > requirements.txt
 ### Windows PowerShell 주의사항
 
 `pip freeze > requirements.txt`를 PowerShell에서 실행하면 **UTF-16으로 저장**되는 경우가 있다. 이러면 글자 사이에 공백이 들어가 `pip install -r`이 오류를 낸다. 의존성이 적을 때는 직접 작성하는 게 안전하다.
+
+## 사용 영상
+- [README-사용 영상 준비.md](./README-사용%20영상%20준비.md) 참고
 
 ## LICENSE
 
